@@ -34,16 +34,16 @@ const onSubmit = (e: any) => {
     const res: FormResponse = itemResponse.getResponse();
     const strRes: string = formResponseToString(res);
 
-    if (title === '名前(本名)') {
+    if (title === 'あなたのお名前') {
       respondentName = strRes;
     }
 
-    if (title === '学籍番号') {
+    if (title === 'あなたの学籍番号') {
       studentNumber = strRes;
     }
   }
 
-  const heading: string = '仮入部フォームに回答がありました。\n';
+  const heading: string = '新入生質問箱に回答がありました。\n';
   const name: string = '名前 : ' + respondentName + '\n';
   const stuNum: string = '学籍番号 : ' + studentNumber + '\n';
 
