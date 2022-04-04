@@ -65,7 +65,7 @@ $ mkdir 新しいプロジェクト名
 $ cp -r temp-entrance2022/* 新しいプロジェクト名
 
 # 移動
-$ cd question-form2022
+$ cd 新しいプロジェクト名
 
 # 依存関係をインストール
 $ npm i
